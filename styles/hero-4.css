@@ -1,0 +1,44 @@
+.hero-4-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 641px;
+  margin-top: 341px;
+  margin-bottom: 500px;
+  & .hero-4-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 88px;
+    & div {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      gap: 16px;
+    }
+  }
+}
+
+@media (width <= 39rem) {
+  .hero-4-div-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0;
+    & .hero-4-header-mobile {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 50px;
+    }
+  }
+}
