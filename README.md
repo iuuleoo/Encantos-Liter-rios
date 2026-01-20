@@ -1,1 +1,1 @@
-Um projeto Chamado Encantos Literários Para Estudar Programação e treinar animações.
+projeto Encantos Literários Para Estudar Programação e treinar animações.
